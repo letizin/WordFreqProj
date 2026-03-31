@@ -2,7 +2,7 @@ import streamlit as st
 
 st.header("사용자 입력 폼")
 
-name = st.text_input("이름", placeholder="이름을 입력하세요")
+name = st.text_input("이름")
 age = st.number_input("나이", 1, 100, 1, 1)
 agree = st.checkbox("약관에 동의합니다")
 
